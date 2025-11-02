@@ -51,7 +51,7 @@ export function BlogSection() {
                    <div className="relative h-48 w-full overflow-hidden">
                     <Image
                       src={image.imageUrl}
-                      alt={image.title}
+                      alt={image.description}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
                       data-ai-hint={image.imageHint}
