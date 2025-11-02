@@ -3,9 +3,7 @@
 
 import { routeContact } from '@/ai/flows/route-contact-flow';
 import { recommendContent } from '@/ai/flows/recommend-content-flow';
-import { generateContactEmail } from '@/ai/flows/generate-contact-email-flow';
 import { z } from 'zod';
-import { Resend } from 'resend';
 
 const contactSchema = z.object({
   name: z.string().min(2, { message: 'Name must be at least 2 characters.' }),
@@ -21,34 +19,10 @@ export async function submitContactForm(data: { name: string; email: string; inq
     throw new Error('Validation failed: ' + JSON.stringify(validatedFields.error.flatten().fieldErrors));
   }
   
-  const { name, email, inquiry } = validatedFields.data;
+  const { inquiry } = validatedFields.data;
   
   try {
     const routingResult = await routeContact({ inquiry });
-    
-    // Generate the email content using AI
-    const emailContent = await generateContactEmail({
-        name,
-        email,
-        inquiry,
-        department: routingResult.department,
-    });
-
-    // Send the email
-    if (process.env.RESEND_API_KEY) {
-      const resend = new Resend(process.env.RESEND_API_KEY);
-      await resend.emails.send({
-          from: 'onboarding@resend.dev', // Must be a verified domain on Resend
-          to: 'IvoriaSystems@gmail.com',
-          subject: emailContent.subject,
-          html: emailContent.body,
-          reply_to: email,
-      });
-    } else {
-      console.warn("RESEND_API_KEY is not set. Skipping email sending.");
-      // In a real app, you might want to throw an error here or handle it differently
-    }
-    
     // Return the routing result to the client for the toast notification
     return routingResult;
   } catch (error) {

@@ -18,6 +18,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { useToast } from '@/hooks/use-toast';
 import { submitContactForm } from '@/app/actions';
 import { Loader2 } from 'lucide-react';
+import React from 'react';
 
 const formSchema = z.object({
   name: z.string().min(2, {
@@ -33,7 +34,8 @@ const formSchema = z.object({
 
 export function ContactForm() {
   const { toast } = useToast();
-  
+  const [isSubmitting, setIsSubmitting] = React.useState(false);
+
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -43,14 +45,33 @@ export function ContactForm() {
     },
   });
 
-  const { isSubmitting } = form.formState;
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
+    setIsSubmitting(true);
     try {
       const result = await submitContactForm(values);
+      
+      const subject = `[${result.department} Inquiry] from ${values.name}`;
+      const body = `Hi Ivoria Systems,
+
+You have a new inquiry from:
+Name: ${values.name}
+Email: ${values.email}
+
+Inquiry:
+${values.inquiry}
+
+---
+This inquiry was automatically routed to the ${result.department} department.
+Reason: ${result.reason}
+`;
+
+      const mailtoLink = `mailto:IvoriaSystems@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      window.location.href = mailtoLink;
+
       toast({
-        title: 'Inquiry Sent!',
-        description: `Your message has been routed to our ${result.department} department.`,
+        title: 'Ready to Send!',
+        description: `Your email client has been opened to send your inquiry to our ${result.department} department.`,
         variant: 'default',
       });
       form.reset();
@@ -64,6 +85,8 @@ export function ContactForm() {
         description: errorMessage,
         variant: 'destructive',
       });
+    } finally {
+      setIsSubmitting(false);
     }
   }
 
