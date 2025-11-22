@@ -14,7 +14,7 @@ import {
 } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent } from '@/components/ui/card';
 import { useToast } from '@/hooks/use-toast';
 import { submitContactForm } from '@/app/actions';
 import { Loader2 } from 'lucide-react';
@@ -92,11 +92,58 @@ Reason: ${result.reason}
 
   return (
     <Card className="w-full max-w-lg mx-auto shadow-lg">
-      <CardHeader>
-        <CardTitle className="font-headline">Open a Secure Channel</CardTitle>
-      </CardHeader>
-      <CardContent>
-        
+      <CardContent className="pt-6">
+        <Form {...form}>
+          <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
+            <FormField
+              control={form.control}
+              name="name"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>Full Name / Callsign</FormLabel>
+                  <FormControl>
+                    <Input placeholder="John 'Soap' MacTavish" {...field} />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+            <FormField
+              control={form.control}
+              name="email"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>Secure Email</FormLabel>
+                  <FormControl>
+                    <Input placeholder="j.mactavish@taskforce141.mil" {...field} />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+            <FormField
+              control={form.control}
+              name="inquiry"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>Message</FormLabel>
+                  <FormControl>
+                    <Textarea
+                      placeholder="Requesting a classified briefing on Project Chimera..."
+                      className="min-h-[120px]"
+                      {...field}
+                    />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+            <Button type="submit" className="w-full" disabled={isSubmitting}>
+              {isSubmitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
+              Transmit Message
+            </Button>
+          </form>
+        </Form>
       </CardContent>
     </Card>
   );
