@@ -9,6 +9,9 @@ export function HeroSection() {
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold font-headline tracking-tighter">
           Ivoria Systems
         </h1>
+        <p className="mt-2 text-base md:text-lg text-primary-foreground/70 tracking-widest font-headline uppercase">
+          Decision. Precision. Influence.
+        </p>
         <p className="mt-4 md:mt-6 max-w-3xl mx-auto text-lg md:text-xl text-primary-foreground/90">
           Secure. Sovereign. Built for the future of national-scale operations.
         </p>
