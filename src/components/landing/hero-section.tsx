@@ -13,7 +13,8 @@ export function HeroSection() {
         <Image
           src={heroImage.imageUrl}
           alt={heroImage.description}
-          fill
+          width={1080}
+          height={720}
           className="object-cover"
           priority
           data-ai-hint={heroImage.imageHint}
@@ -25,7 +26,7 @@ export function HeroSection() {
           Dominance Through Technology
         </h1>
         <p className="mt-4 md:mt-6 max-w-2xl mx-auto text-lg md:text-xl text-primary-foreground/90">
-          Aegis Dynamics delivers decisive strategic advantages through next-generation autonomous systems, secure communications, and advanced battlefield intelligence.
+          Ivoria Systems delivers decisive strategic advantages through next-generation autonomous systems, secure communications, and advanced battlefield intelligence.
         </p>
         <div className="mt-8 md:mt-10 flex flex-wrap justify-center gap-4">
           <Button size="lg" asChild>

@@ -10,25 +10,25 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const testimonials = [
   {
-    quote: "Aegis Dynamics provided a level of situational awareness we previously thought was unattainable. Their C4ISR platform is a generation ahead of anything else on the market.",
+    quote: "Ivoria Systems provided a level of situational awareness we previously thought was unattainable. Their C4ISR platform is a generation ahead of anything else on the market.",
     name: "General J. Matthews",
     title: "Commander, Joint Task Force",
     avatar: "JM",
   },
   {
-    quote: "The autonomous systems delivered by Aegis have been a force multiplier, reducing risk to our personnel while increasing mission effectiveness. A true strategic partner.",
+    quote: "The autonomous systems delivered by Ivoria have been a force multiplier, reducing risk to our personnel while increasing mission effectiveness. A true strategic partner.",
     name: "Admiral S. Hayes",
     title: "Head of Naval R&D",
     avatar: "SH",
   },
   {
-    quote: "In the cyber domain, there is no one I trust more. Aegis Dynamics' expertise in digital warfare is second to none. They are the shield of the modern era.",
+    quote: "In the cyber domain, there is no one I trust more. Ivoria Systems' expertise in digital warfare is second to none. They are the shield of the modern era.",
     name: "Dir. Elena Petrova",
     title: "National Cyber Security Agency",
     avatar: "EP",
   },
     {
-    quote: "Their ability to rapidly prototype and deploy solutions in the field is extraordinary. Aegis operates at a speed and precision that is simply unmatched in the industry.",
+    quote: "Their ability to rapidly prototype and deploy solutions in the field is extraordinary. Ivoria operates at a speed and precision that is simply unmatched in the industry.",
     name: "Dr. Marcus Thorne",
     title: "DARPA Project Lead",
     avatar: "MT",
@@ -42,7 +42,7 @@ export function TestimonialsSection() {
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold font-headline">Trusted by Strategic Partners</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Hear from leaders on the front lines who rely on Aegis Dynamics technology.
+            Hear from leaders on the front lines who rely on Ivoria Systems technology.
           </p>
         </div>
         <Carousel

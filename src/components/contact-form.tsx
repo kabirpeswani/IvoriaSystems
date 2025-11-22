@@ -52,7 +52,7 @@ export function ContactForm() {
       const result = await submitContactForm(values);
       
       const subject = `[${result.department} Inquiry] from ${values.name}`;
-      const body = `Hi Aegis Dynamics,
+      const body = `Hi Ivoria Systems,
 
 You have a new inquiry from:
 Name: ${values.name}
@@ -66,7 +66,7 @@ This inquiry was automatically routed to the ${result.department} department.
 Reason: ${result.reason}
 `;
 
-      const mailtoLink = `mailto:contact@aegis-dynamics.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      const mailtoLink = `mailto:contact@ivoria-systems.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
       window.location.href = mailtoLink;
 
       toast({
