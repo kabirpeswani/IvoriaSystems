@@ -31,7 +31,7 @@ const services: Service[] = [
   },
   {
     icon: DatabaseZap,
-    title: "Battlefield Data Fusion",
+    title: "Data Fusion",
     description: "Fusing multi-source intelligence into a single, actionable picture for commanders on the ground.",
   },
   {
