@@ -1,6 +1,5 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 const teamMembers = [
   {
@@ -61,16 +60,13 @@ export function TeamSection() {
           </p>
         </div>
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-          {teamMembers.map((member) => {
-             const image = PlaceHolderImages.find(p => p.id === member.id);
-             return (
+          {teamMembers.map((member) => (
             <Card
               key={member.id}
               className="text-center items-center p-4 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 hover:border-primary/50"
             >
               <CardContent className="p-2 flex flex-col items-center">
                 <Avatar className="h-24 w-24 mb-4">
-                  <AvatarImage src={`https://picsum.photos/seed/${member.avatar}/200/200`} />
                   <AvatarFallback>{member.avatar}</AvatarFallback>
                 </Avatar>
                 <CardTitle className="font-headline text-lg leading-snug">
@@ -81,7 +77,7 @@ export function TeamSection() {
                 </p>
               </CardContent>
             </Card>
-          )})}
+          ))}
         </div>
       </div>
     </section>
