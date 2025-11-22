@@ -40,6 +40,10 @@ export function ProductSection() {
                   </li>
                   <li className="flex items-center gap-3">
                     <Check className="h-5 w-5 text-primary" />
+                    <span>Analyzes foreground as well as background audio.</span>
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <Check className="h-5 w-5 text-primary" />
                     <span>Secure, on-premise deployment options.</span>
                   </li>
                 </ul>
