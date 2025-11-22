@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Satellite, BrainCircuit, ShieldCheck, RadioTower, DatabaseZap, Wifi } from "lucide-react";
+import { Satellite, BrainCircuit, ShieldCheck, RadioTower, DatabaseZap, Bot } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
 type Service = {
@@ -17,7 +17,7 @@ const services: Service[] = [
   {
     icon: BrainCircuit,
     title: "AI Warfare",
-    description: "Developing intelligent, autonomous platforms for air, land, and sea that enhance mission effectiveness and safety.",
+    description: "Developing intelligent platforms for air, land, and sea that enhance mission effectiveness and safety.",
   },
   {
     icon: ShieldCheck,
@@ -35,9 +35,9 @@ const services: Service[] = [
     description: "Fusing multi-source intelligence into a single, actionable picture for commanders on the ground.",
   },
   {
-    icon: Wifi,
-    title: "Resilient Communications",
-    description: "Ensuring secure, jam-resistant communication links in contested and denied environments.",
+    icon: Bot,
+    title: "Autonomous Systems",
+    description: "Engineering unmanned and autonomous hardware for complex, high-risk operational scenarios.",
   },
 ];
 
