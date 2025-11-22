@@ -1,6 +1,7 @@
 import { AboutSection } from "@/components/landing/about-section";
 import { ContactSection } from "@/components/landing/contact-section";
 import { HeroSection } from "@/components/landing/hero-section";
+import { ProductSection } from "@/components/landing/product-section";
 import { ServicesSection } from "@/components/landing/services-section";
 import { TeamSection } from "@/components/landing/team-section";
 import { WhyIvoryaSection } from "@/components/landing/why-ivorya-section";
@@ -12,6 +13,7 @@ export default function Home() {
       <AboutSection />
       <WhyIvoryaSection />
       <ServicesSection />
+      <ProductSection />
       <TeamSection />
       <ContactSection />
     </div>
