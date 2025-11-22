@@ -16,7 +16,7 @@ const services: Service[] = [
   },
   {
     icon: BrainCircuit,
-    title: "AI Warfare",
+    title: "AI Capabilities",
     description: "Developing intelligent platforms for air, land, and sea that enhance mission effectiveness and safety.",
   },
   {
