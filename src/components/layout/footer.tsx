@@ -14,6 +14,9 @@ export function Footer() {
             <p className="text-sm text-muted-foreground">
               Forging the Future of Defense Technology.
             </p>
+            <p className="text-sm text-muted-foreground">
+              Decision. Precision. Influence.
+            </p>
           </div>
         </div>
         <div className="mt-8 border-t border-secondary-foreground/20 pt-8 text-center text-sm">
