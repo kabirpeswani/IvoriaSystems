@@ -21,7 +21,7 @@ const services: Service[] = [
   },
   {
     icon: ShieldCheck,
-    title: "Cyber Warfare & Security",
+    title: "Cyber Security",
     description: "Delivering AI enabled cyber capabilities to protect critical infrastructure and assets.",
   },
   {
