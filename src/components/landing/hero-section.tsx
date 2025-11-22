@@ -15,14 +15,6 @@ export function HeroSection() {
         <p className="mt-4 max-w-2xl mx-auto text-base text-muted-foreground">
           We are developing advanced infrastructure technology for organizations requiring uncompromising security, reliability, and sovereignty. Full details are available only to authorized government entities.
         </p>
-        <div className="mt-8 md:mt-10 flex flex-wrap justify-center gap-4">
-          <Button size="lg" asChild>
-            <Link href="#services">
-              Capabilities
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Link>
-          </Button>
-        </div>
       </div>
     </section>
   );
