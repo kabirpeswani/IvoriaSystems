@@ -38,7 +38,7 @@ export function WhyIvoryaSection() {
         </div>
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
           {features.map((feature, index) => (
-            <Card key={index} className="flex flex-col text-center items-center p-4">
+            <Card key={index} className="flex flex-col text-center items-center p-4 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
               <CardHeader className="items-center">
                 <div className="p-3 bg-primary/10 rounded-full">
                    <feature.icon className="h-7 w-7 text-primary" />
