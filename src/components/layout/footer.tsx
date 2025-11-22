@@ -30,20 +30,6 @@ export function Footer() {
               </ul>
             </div>
           </div>
-          <div className="flex flex-col items-start gap-4 md:items-end">
-             <h4 className="font-semibold">Follow Us</h4>
-             <div className="flex gap-2">
-                <Button variant="ghost" size="icon" asChild>
-                    <Link href="#"><Twitter className="h-5 w-5" /></Link>
-                </Button>
-                <Button variant="ghost" size="icon" asChild>
-                    <Link href="#"><Linkedin className="h-5 w-5" /></Link>
-                </Button>
-                <Button variant="ghost" size="icon" asChild>
-                    <Link href="#"><Github className="h-5 w-5" /></Link>
-                </Button>
-             </div>
-          </div>
         </div>
         <div className="mt-8 border-t border-secondary-foreground/20 pt-8 text-center text-sm">
           <p>&copy; {new Date().getFullYear()} Ivoria Systems. All rights reserved.</p>
