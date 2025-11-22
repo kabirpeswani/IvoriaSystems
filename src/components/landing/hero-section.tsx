@@ -1,25 +1,10 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { ArrowRight } from 'lucide-react';
 
 export function HeroSection() {
-  const heroImage = PlaceHolderImages.find(p => p.id === 'hero-background');
-
   return (
-    <section className="relative w-full h-[80vh] min-h-[600px] flex items-center justify-center text-center text-white overflow-hidden">
-      {heroImage && (
-        <Image
-          src={heroImage.imageUrl}
-          alt={heroImage.description}
-          fill
-          className="object-cover"
-          priority
-          data-ai-hint={heroImage.imageHint}
-        />
-      )}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+    <section className="relative w-full h-[80vh] min-h-[600px] flex items-center justify-center text-center bg-background text-primary-foreground overflow-hidden">
       <div className="relative z-10 p-4 sm:p-6 lg:p-8 max-w-4xl mx-auto flex flex-col items-center justify-center animate-in fade-in-0 slide-in-from-bottom-10 duration-1000">
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold font-headline tracking-tighter">
           Dominance Through Technology
