@@ -20,12 +20,12 @@ const teamMembers = [
   {
     id: "team-gauri",
     name: "Gauri Bhade",
-    role: "Legal Advisory",
+    role: "Visiting Legal Advisory",
   },
   {
     id: "team-abhinandan",
     name: "Abhinandan Shah",
-    role: "Legal Advisory",
+    role: "Visiting Legal Advisory",
   },
 ];
 
