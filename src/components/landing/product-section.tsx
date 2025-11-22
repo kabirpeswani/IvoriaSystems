@@ -23,7 +23,7 @@ export function ProductSection() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-6">
-                  An advanced AI tool for real-time analysis and transcription of audio recordings. It identifies key events, speakers, and topics from vast amounts of audio data, delivering actionable intelligence.
+                  An advanced AI tool for analysis and transcription of audio recordings. It identifies key events, speakers, and topics from vast amounts of audio data, delivering actionable intelligence.
                 </p>
                 <ul className="space-y-3 text-sm">
                   <li className="flex items-center gap-3">
