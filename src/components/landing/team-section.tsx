@@ -5,43 +5,46 @@ const teamMembers = [
     id: "team-kabir",
     name: "Kabir Peswani",
     role: "Director & Head of Strategic",
-    avatar: "KP",
   },
   {
     id: "team-simran",
     name: "Simran Peswani",
     role: "Director",
-    avatar: "SP",
   },
   {
     id: "team-divya",
     name: "Divya Singh",
     role: "CEO",
-    avatar: "DS",
   },
   {
     id: "team-gauri",
     name: "Gauri Bhade",
     role: "Joint Head of Legal Advisory",
-    avatar: "GB",
   },
   {
     id: "team-abhinandan",
     name: "Abhinandan Shah",
     role: "Joint Head of Legal Advisory",
-    avatar: "AS",
   },
   {
     id: "team-mayank",
     name: "Mayank Mahajan",
     role: "Backend Developer",
-    avatar: "MM",
   },
   {
     id: "team-parth",
     name: "Parth Latke",
     role: "Frontend Developer",
-    avatar: "PL",
+  },
+  {
+    id: "team-rushikesh",
+    name: "Rushikesh Khatke",
+    role: "Machine Learning Engineer",
+  },
+  {
+    id: "team-tanishq",
+    name: "Tanishq Gupta",
+    role: "Machine Learning Engineer",
   },
 ];
 
