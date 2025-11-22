@@ -1,4 +1,3 @@
-import { ContactForm } from "@/components/contact-form";
 
 export function ContactSection() {
   return (
@@ -12,7 +11,7 @@ export function ContactSection() {
             </p>
           </div>
           <div className="w-full">
-            <ContactForm />
+            {/* The ContactForm was previously here */}
           </div>
         </div>
       </div>
