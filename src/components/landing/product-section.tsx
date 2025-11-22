@@ -12,7 +12,7 @@ export function ProductSection() {
           </p>
         </div>
         <div className="mt-12 max-w-4xl mx-auto">
-          <Card className="overflow-hidden md:flex md:items-center">
+          <Card className="overflow-hidden md:flex md:items-center hover:shadow-lg hover:-translate-y-1 transition-all duration-300 hover:border-primary/50">
             <div className="p-8 md:p-10 bg-primary/10 md:w-1/3 flex items-center justify-center">
               <FileAudio className="w-24 h-24 text-primary" />
             </div>
@@ -42,7 +42,7 @@ export function ProductSection() {
                     <Check className="h-5 w-5 text-primary" />
                     <span>Analyzes foreground as well as background audio.</span>
                   </li>
-                  <li className="flex items-center gap-3">
+                   <li className="flex items-center gap-3">
                     <Check className="h-5 w-5 text-primary" />
                     <span>Secure, on-premise deployment options.</span>
                   </li>
