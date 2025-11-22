@@ -10,7 +10,7 @@ export function Footer() {
           <div className="flex flex-col items-start gap-4">
             <Link href="/" className="flex items-center gap-2" prefetch={false}>
               <Shield className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold font-headline">Aegis Dynamics</span>
+              <span className="text-xl font-bold font-headline">Ivoria Systems</span>
             </Link>
             <p className="text-sm">
               Forging the Future of Defense Technology.
@@ -49,7 +49,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t border-secondary-foreground/20 pt-8 text-center text-sm">
-          <p>&copy; {new Date().getFullYear()} Aegis Dynamics. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Ivoria Systems. All rights reserved.</p>
         </div>
       </div>
     </footer>

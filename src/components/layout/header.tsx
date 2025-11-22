@@ -43,7 +43,7 @@ export function Header() {
         <Link href="/" className="flex items-center gap-2" prefetch={false}>
           <Shield className="h-6 w-6 text-primary" />
           <span className="text-lg font-bold font-headline text-foreground">
-            Aegis Dynamics
+            Ivoria Systems
           </span>
         </Link>
         <nav className="hidden items-center gap-2 md:flex">
@@ -63,7 +63,7 @@ export function Header() {
             <div className="flex flex-col gap-6 p-6">
               <Link href="/" className="flex items-center gap-2" prefetch={false}>
                 <Shield className="h-6 w-6 text-primary" />
-                <span className="text-lg font-bold font-headline">Aegis Dynamics</span>
+                <span className="text-lg font-bold font-headline">Ivoria Systems</span>
               </Link>
               <nav className="flex flex-col gap-4">
                 {renderNavLinks()}

@@ -6,7 +6,7 @@ import { Footer } from '@/components/layout/footer';
 import { cn } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Aegis Dynamics',
+  title: 'Ivoria Systems',
   description: 'Forging the Future of Defense Technology. Resilient, Secure, and Mission-Ready.',
   icons: {
     icon: '/favicon.ico',
