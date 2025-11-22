@@ -32,7 +32,7 @@ const services: Service[] = [
   {
     icon: DatabaseZap,
     title: "Data Fusion",
-    description: "Fusing multi-source intelligence into a single, actionable picture for commanders on the ground.",
+    description: "Fusing multi-source data into a single, actionable picture for people on the ground.",
   },
   {
     icon: Bot,
