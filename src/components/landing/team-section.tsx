@@ -26,26 +26,6 @@ const teamMembers = [
     name: "Abhinandan Shah",
     role: "Joint Head of Legal Advisory",
   },
-  {
-    id: "team-mayank",
-    name: "Mayank Mahajan",
-    role: "Backend Developer",
-  },
-  {
-    id: "team-parth",
-    name: "Parth Latke",
-    role: "Frontend Developer",
-  },
-  {
-    id: "team-rushikesh",
-    name: "Rushikesh Khatke",
-    role: "Machine Learning Engineer",
-  },
-  {
-    id: "team-tanishq",
-    name: "Tanishq Gupta",
-    role: "Machine Learning Engineer",
-  },
 ];
 
 export function TeamSection() {
@@ -61,7 +41,7 @@ export function TeamSection() {
             vision.
           </p>
         </div>
-        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8 justify-center">
           {teamMembers.map((member) => (
             <Card
               key={member.id}
