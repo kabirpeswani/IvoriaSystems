@@ -18,7 +18,7 @@ export function HeroSection() {
         <div className="mt-8 md:mt-10 flex flex-wrap justify-center gap-4">
           <Button size="lg" asChild>
             <Link href="#services">
-              Authorized Inquiries
+              Capabilities
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
           </Button>
