@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Satellite, BrainCircuit, ShieldCheck, RadioTower, DatabaseZap, Bot } from "lucide-react";
+import { Satellite, BrainCircuit, ShieldCheck, Atom, DatabaseZap, Bot } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
 type Service = {
@@ -25,9 +25,9 @@ const services: Service[] = [
     description: "Delivering AI enabled cyber capabilities to protect critical infrastructure and assets.",
   },
   {
-    icon: RadioTower,
-    title: "Electronic Warfare",
-    description: "Deploying systems to control the electromagnetic spectrum and deny adversary advantages.",
+    icon: Atom,
+    title: "Quantum Communications",
+    description: "Engineering next-generation, quantum-resistant communication channels for unconditional security.",
   },
   {
     icon: DatabaseZap,
