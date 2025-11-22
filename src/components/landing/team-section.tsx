@@ -57,7 +57,7 @@ export function TeamSection() {
             Our Leadership
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Meet the minds behind our mission-critical technology and strategic
+            Meet the minds behind our advanced technology and strategic
             vision.
           </p>
         </div>
