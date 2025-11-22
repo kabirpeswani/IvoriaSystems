@@ -1,4 +1,3 @@
-import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const teamMembers = [
@@ -65,10 +64,7 @@ export function TeamSection() {
               key={member.id}
               className="text-center items-center p-4 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 hover:border-primary/50"
             >
-              <CardContent className="p-2 flex flex-col items-center">
-                <Avatar className="h-24 w-24 mb-4">
-                  <AvatarFallback>{member.avatar}</AvatarFallback>
-                </Avatar>
+              <CardContent className="p-2 flex flex-col items-center justify-center flex-grow">
                 <CardTitle className="font-headline text-lg leading-snug">
                   {member.name}
                 </CardTitle>
