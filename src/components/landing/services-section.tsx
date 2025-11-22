@@ -16,8 +16,8 @@ const services: Service[] = [
   },
   {
     icon: BrainCircuit,
-    title: "Autonomous Systems",
-    description: "Developing intelligent, unmanned platforms for air, land, and sea that enhance mission effectiveness and safety.",
+    title: "AI Warfare",
+    description: "Developing intelligent, autonomous platforms for air, land, and sea that enhance mission effectiveness and safety.",
   },
   {
     icon: ShieldCheck,
