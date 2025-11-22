@@ -46,9 +46,6 @@ export function Header() {
         </Link>
         <nav className="hidden items-center gap-2 md:flex">
           {renderNavLinks()}
-          <Button asChild>
-            <Link href="#contact">Get in Touch</Link>
-          </Button>
         </nav>
         <Sheet>
           <SheetTrigger asChild>
@@ -66,9 +63,6 @@ export function Header() {
               <nav className="flex flex-col gap-4">
                 {renderNavLinks()}
               </nav>
-               <Button asChild>
-                <Link href="#contact">Get in Touch</Link>
-              </Button>
             </div>
           </SheetContent>
         </Sheet>
