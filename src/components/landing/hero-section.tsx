@@ -16,7 +16,7 @@ export function HeroSection() {
           Secure. Sovereign. Built for the future of national-scale operations.
         </p>
         <p className="mt-4 max-w-2xl mx-auto text-base text-muted-foreground">
-          We are developing advanced infrastructure technology for organizations requiring uncompromising security, reliability, and sovereignty. Full details are available only to authorized government entities.
+          We are developing advanced infrastructure technology for organizations requiring uncompromising security, reliability, and sovereignty. Full details are available only to authorized entities.
         </p>
       </div>
     </section>
