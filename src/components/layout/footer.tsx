@@ -21,7 +21,6 @@ export function Footer() {
               <h4 className="font-semibold mb-4">Quick Links</h4>
               <ul className="space-y-2">
                 <li><Link href="#services" className="hover:text-primary transition-colors">Capabilities</Link></li>
-                <li><Link href="#blog" className="hover:text-primary transition-colors">Intelligence</Link></li>
               </ul>
             </div>
             <div>
