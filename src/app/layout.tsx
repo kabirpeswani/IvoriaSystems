@@ -6,8 +6,8 @@ import { Footer } from '@/components/layout/footer';
 import { cn } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Ivoria Systems Digital Showcase',
-  description: 'Premier software innovation firm dedicated to crafting intelligent, resilient, and future-ready digital solutions.',
+  title: 'Aegis Dynamics',
+  description: 'Forging the Future of Defense Technology. Resilient, Secure, and Mission-Ready.',
   icons: {
     icon: '/favicon.ico',
   },
@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="!scroll-smooth">
+    <html lang="en" className="!scroll-smooth dark">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

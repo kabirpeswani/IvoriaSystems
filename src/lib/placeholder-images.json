@@ -2,45 +2,45 @@
   "placeholderImages": [
     {
       "id": "hero-background",
-      "description": "Abstract technological background for the hero section.",
-      "imageUrl": "https://images.unsplash.com/photo-1568952433726-3896e3881c65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzYyMDkwMDExfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract technology"
+      "description": "Satellite orbiting a dark earth, representing global surveillance and communication.",
+      "imageUrl": "https://images.unsplash.com/photo-1627483262039-b9c1a5d6f658?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzb2xhciUyMGZsYXJlJTIwc3BhY2V8ZW58MHx8fHwxNzI4MDQ1NjEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "global satellite"
     },
     {
       "id": "case-study-1",
-      "description": "A team collaborating on a project for the first case study.",
-      "imageUrl": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fDE3NjIwNDQxMjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "team collaboration"
+      "description": "Engineers working on a complex problem on a digital whiteboard in a dark room.",
+      "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxNXx8dGVhbSUyMHN0cmF0ZWd5fGVufDB8fHx8MTcyODA0NTY4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "strategic planning"
     },
     {
       "id": "case-study-2",
-      "description": "A dashboard showing data analytics for the second case study.",
-      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYXRhJTIwZGFzaGJvYXJkfGVufDB8fHx8MTc2MjAzNzY5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "data dashboard"
+      "description": "Secure data center with rows of servers, illuminated by blue light.",
+      "imageUrl": "https://images.unsplash.com/photo-1521791136064-7986c2920216?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzZWN1cmUlMjBkYXRhJTIwY2VudGVyfGVufDB8fHx8MTcyODA0NTczMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "secure datacenter"
     },
     {
       "id": "case-study-3",
-      "description": "Cloud infrastructure diagram for the third case study.",
-      "imageUrl": "https://images.unsplash.com/photo-1629058800469-387d7a6e0c98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjbG91ZCUyMGluZnJhc3RydWN0dXJlfGVufDB8fHx8MTc2MjAwODE1Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "cloud infrastructure"
+      "description": "An abstract visualization of a secure digital network or cybersecurity shield.",
+      "imageUrl": "https://images.unsplash.com/photo-1526374965328-5f61d4dc18c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjeWJlcnNlY3VyaXR5fGVufDB8fHx8MTcyODA0NTc3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cybersecurity shield"
     },
     {
       "id": "blog-post-1",
-      "description": "A person writing code for a blog post about software development.",
-      "imageUrl": "https://images.unsplash.com/photo-1653387137517-fbc54d488ed8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb2RpbmclMjBwcm9ncmFtbWluZ3xlbnwwfHx8fDE3NjIwOTk2MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "coding programming"
+      "description": "Close up of a stealth fighter jet, showing advanced materials and aerodynamics.",
+      "imageUrl": "https://images.unsplash.com/photo-1579786481135-2d63412711b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzcGFjZXNoaXB8ZW58MHx8fHwxNzI4MDQ1ODMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "aerospace engineering"
     },
     {
       "id": "blog-post-2",
-      "description": "An image representing artificial intelligence for a blog post.",
-      "imageUrl": "https://images.unsplash.com/photo-1591696331111-ef9586a5b17a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlfGVufDB8fHx8MTc2MjAyNjE5MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "artificial intelligence"
+      "description": "A soldier in modern gear using a holographic interface in the field.",
+      "imageUrl": "https://images.unsplash.com/photo-1532356884227-66d7c0e9e485?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzb2xkaWVyfGVufDB8fHx8MTcyODA0NTg4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "future soldier"
     },
     {
       "id": "blog-post-3",
-      "description": "A modern office building for a blog post about enterprise solutions.",
-      "imageUrl": "https://images.unsplash.com/photo-1623177623442-979c1e42c255?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb2Rlcm4lMjBvZmZpY2V8ZW58MHx8fHwxNzYyMDcwMjU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "modern office"
+      "description": "A global map with digital overlays showing strategic data points.",
+      "imageUrl": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzZXJ2aWNlfGVufDB8fHx8MTcyODA0NTkzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "global strategy"
     }
   ]
 }

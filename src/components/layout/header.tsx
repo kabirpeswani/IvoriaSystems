@@ -1,18 +1,17 @@
-
 "use client";
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
-import { Menu, Gem } from "lucide-react";
+import { Menu, Shield } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
-  { href: "#services", label: "Services" },
-  { href: "#work", label: "Our Work" },
-  { href: "#testimonials", label: "Testimonials" },
-  { href: "#blog", label: "Insights" },
+  { href: "#services", label: "Capabilities" },
+  { href: "#work", label: "Missions" },
+  { href: "#testimonials", label: "Partners" },
+  { href: "#blog", label: "Intelligence" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -44,9 +43,9 @@ export function Header() {
     >
       <div className="container mx-auto flex h-16 max-w-7xl items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2" prefetch={false}>
-          <Gem className="h-6 w-6 text-primary" />
+          <Shield className="h-6 w-6 text-primary" />
           <span className="text-lg font-bold font-headline text-foreground">
-            Ivoria Systems
+            Aegis Dynamics
           </span>
         </Link>
         <nav className="hidden items-center gap-2 md:flex">
@@ -65,8 +64,8 @@ export function Header() {
           <SheetContent side="right">
             <div className="flex flex-col gap-6 p-6">
               <Link href="/" className="flex items-center gap-2" prefetch={false}>
-                <Gem className="h-6 w-6 text-primary" />
-                <span className="text-lg font-bold font-headline">Ivoria Systems</span>
+                <Shield className="h-6 w-6 text-primary" />
+                <span className="text-lg font-bold font-headline">Aegis Dynamics</span>
               </Link>
               <nav className="flex flex-col gap-4">
                 {renderNavLinks()}

@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import Link from "next/link";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -10,21 +9,21 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 const caseStudies = [
   {
     id: "case-study-1",
-    title: "AI-Powered Logistics Optimization for a Fortune 500",
-    description: "Developed a bespoke AI platform that reduced shipping costs by 22% and improved delivery times.",
-    tags: ["AI/ML", "Enterprise", "Logistics"],
+    title: "Project Chimera: AI-Driven Threat Detection",
+    description: "Deployed a multi-domain AI that reduced analyst response time by 75% in a simulated combat environment.",
+    tags: ["AI/ML", "C4ISR", "Intelligence"],
   },
   {
     id: "case-study-2",
-    title: "Scalable Cloud Architecture for a FinTech Startup",
-    description: "Engineered a secure, multi-cloud infrastructure to support rapid user growth, ensuring 99.99% uptime.",
-    tags: ["Cloud", "FinTech", "Security"],
+    title: "Aegis Shield: National Infrastructure Cyber-Defense",
+    description: "Engineered a zero-trust cyber defense network for a national power grid, neutralizing over 10,000 threats daily.",
+    tags: ["Cybersecurity", "Infrastructure", "Zero Trust"],
   },
   {
     id: "case-study-3",
-    title: "Next-Gen UX for a Global E-commerce Leader",
-    description: "Redesigned a customer-facing portal, resulting in a 40% increase in user engagement and a 15% uplift in conversions.",
-    tags: ["UX/UI", "E-commerce", "Web App"],
+    title: "Project Longbow: Autonomous Swarm Logistics",
+    description: "Created a swarm UAV logistics platform that increased battlefield resupply efficiency by 200% in field trials.",
+    tags: ["Autonomous", "Logistics", "UAV"],
   },
 ];
 
@@ -33,9 +32,9 @@ export function CaseStudiesSection() {
     <section id="work" className="py-16 md:py-24 bg-secondary">
       <div className="container mx-auto max-w-7xl px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold font-headline">From Ambition to Achievement</h2>
+          <h2 className="text-3xl md:text-4xl font-bold font-headline">Mission Success Stories</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            We partner with visionary companies to build transformative digital products. Explore some of our success stories.
+            Our technology is field-tested and proven in the most demanding scenarios. Explore our successful mission deployments.
           </p>
         </div>
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -66,7 +65,7 @@ export function CaseStudiesSection() {
                 <CardFooter>
                   <Button variant="link" asChild className="p-0 h-auto">
                     <Link href="#">
-                      Read Case Study
+                      View Debrief
                       <ArrowRight className="ml-2 h-4 w-4" />
                     </Link>
                   </Button>

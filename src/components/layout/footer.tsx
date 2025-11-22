@@ -1,6 +1,5 @@
-
 import Link from "next/link";
-import { Gem, Twitter, Linkedin, Github } from "lucide-react";
+import { Shield, Twitter, Linkedin, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function Footer() {
@@ -10,20 +9,20 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           <div className="flex flex-col items-start gap-4">
             <Link href="/" className="flex items-center gap-2" prefetch={false}>
-              <Gem className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold font-headline">Ivoria Systems</span>
+              <Shield className="h-8 w-8 text-primary" />
+              <span className="text-xl font-bold font-headline">Aegis Dynamics</span>
             </Link>
             <p className="text-sm">
-              Crafting intelligent, resilient, and future-ready digital solutions.
+              Forging the Future of Defense Technology.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-8 text-sm">
             <div>
               <h4 className="font-semibold mb-4">Quick Links</h4>
               <ul className="space-y-2">
-                <li><Link href="#services" className="hover:text-primary transition-colors">Services</Link></li>
-                <li><Link href="#work" className="hover:text-primary transition-colors">Our Work</Link></li>
-                <li><Link href="#blog" className="hover:text-primary transition-colors">Insights</Link></li>
+                <li><Link href="#services" className="hover:text-primary transition-colors">Capabilities</Link></li>
+                <li><Link href="#work" className="hover:text-primary transition-colors">Missions</Link></li>
+                <li><Link href="#blog" className="hover:text-primary transition-colors">Intelligence</Link></li>
               </ul>
             </div>
             <div>
@@ -51,7 +50,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t border-secondary-foreground/20 pt-8 text-center text-sm">
-          <p>&copy; {new Date().getFullYear()} Ivoria Systems. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Aegis Dynamics. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -52,7 +52,7 @@ export function ContactForm() {
       const result = await submitContactForm(values);
       
       const subject = `[${result.department} Inquiry] from ${values.name}`;
-      const body = `Hi Ivoria Systems,
+      const body = `Hi Aegis Dynamics,
 
 You have a new inquiry from:
 Name: ${values.name}
@@ -66,7 +66,7 @@ This inquiry was automatically routed to the ${result.department} department.
 Reason: ${result.reason}
 `;
 
-      const mailtoLink = `mailto:IvoriaSystems@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      const mailtoLink = `mailto:contact@aegis-dynamics.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
       window.location.href = mailtoLink;
 
       toast({
@@ -93,7 +93,7 @@ Reason: ${result.reason}
   return (
     <Card className="w-full max-w-lg mx-auto shadow-lg">
       <CardHeader>
-        <CardTitle className="font-headline">Get in Touch</CardTitle>
+        <CardTitle className="font-headline">Open a Secure Channel</CardTitle>
       </CardHeader>
       <CardContent>
         <Form {...form}>
@@ -103,9 +103,9 @@ Reason: ${result.reason}
               name="name"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Full Name</FormLabel>
+                  <FormLabel>Full Name / Callsign</FormLabel>
                   <FormControl>
-                    <Input placeholder="John Doe" {...field} />
+                    <Input placeholder="John 'Echo' Doe" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -116,9 +116,9 @@ Reason: ${result.reason}
               name="email"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Email Address</FormLabel>
+                  <FormLabel>Secure Email</FormLabel>
                   <FormControl>
-                    <Input placeholder="you@example.com" {...field} />
+                    <Input placeholder="j.doe@agency.gov" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -129,10 +129,10 @@ Reason: ${result.reason}
               name="inquiry"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Your Inquiry</FormLabel>
+                  <FormLabel>Message</FormLabel>
                   <FormControl>
                     <Textarea
-                      placeholder="Tell us how we can help you..."
+                      placeholder="Detail your requirements..."
                       className="min-h-[120px]"
                       {...field}
                     />
@@ -143,7 +143,7 @@ Reason: ${result.reason}
             />
             <Button type="submit" className="w-full" disabled={isSubmitting}>
               {isSubmitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
-              Submit Inquiry
+              Transmit Message
             </Button>
           </form>
         </Form>

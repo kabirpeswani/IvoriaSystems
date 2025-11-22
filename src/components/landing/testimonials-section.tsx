@@ -10,28 +10,28 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const testimonials = [
   {
-    quote: "Ivoria Systems transformed our entire data infrastructure. Their expertise in systems architecture is unparalleled. They delivered on time, on budget, and beyond our expectations.",
-    name: "Jane Doe",
-    title: "CTO, Global Tech Inc.",
-    avatar: "JD",
+    quote: "Aegis Dynamics provided a level of situational awareness we previously thought was unattainable. Their C4ISR platform is a generation ahead of anything else on the market.",
+    name: "General J. Matthews",
+    title: "Commander, Joint Task Force",
+    avatar: "JM",
   },
   {
-    quote: "The AI platform Ivoria built for us has become the core of our operational strategy. It's intelligent, resilient, and has given us a significant competitive edge.",
-    name: "John Smith",
-    title: "CEO, Innovate Solutions",
-    avatar: "JS",
+    quote: "The autonomous systems delivered by Aegis have been a force multiplier, reducing risk to our personnel while increasing mission effectiveness. A true strategic partner.",
+    name: "Admiral S. Hayes",
+    title: "Head of Naval R&D",
+    avatar: "SH",
   },
   {
-    quote: "Working with Ivoria was a masterclass in professionalism and precision engineering. Their team integrated seamlessly with ours and elevated our product to a new level.",
-    name: "Emily White",
-    title: "VP of Engineering, Future Systems",
-    avatar: "EW",
+    quote: "In the cyber domain, there is no one I trust more. Aegis Dynamics' expertise in digital warfare is second to none. They are the shield of the modern era.",
+    name: "Dir. Elena Petrova",
+    title: "National Cyber Security Agency",
+    avatar: "EP",
   },
     {
-    quote: "The user experience they designed is simply brilliant. Our customer satisfaction scores have skyrocketed, and the feedback has been overwhelmingly positive.",
-    name: "Michael Brown",
-    title: "Head of Product, Connectly",
-    avatar: "MB",
+    quote: "Their ability to rapidly prototype and deploy solutions in the field is extraordinary. Aegis operates at a speed and precision that is simply unmatched in the industry.",
+    name: "Dr. Marcus Thorne",
+    title: "DARPA Project Lead",
+    avatar: "MT",
   },
 ];
 
@@ -40,9 +40,9 @@ export function TestimonialsSection() {
     <section id="testimonials" className="py-16 md:py-24 bg-background">
       <div className="container mx-auto max-w-7xl px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold font-headline">Trusted by Industry Leaders</h2>
+          <h2 className="text-3xl md:text-4xl font-bold font-headline">Trusted by Strategic Partners</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Hear what our partners have to say about our commitment to excellence and innovation.
+            Hear from leaders on the front lines who rely on Aegis Dynamics technology.
           </p>
         </div>
         <Carousel

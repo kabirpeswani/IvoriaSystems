@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import Link from "next/link";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -9,21 +8,21 @@ import { format } from 'date-fns';
 const blogPosts = [
   {
     id: "blog-post-1",
-    title: "The Future of Resilient Systems Architecture",
+    title: "The Future of Hypersonic Propulsion Systems",
     date: new Date(2023, 10, 15),
-    excerpt: "Discover the principles behind designing systems that can withstand failure and scale gracefully.",
+    excerpt: "An analysis of emerging scramjet technologies and their strategic implications for next-generation platforms.",
   },
   {
     id: "blog-post-2",
-    title: "Demystifying AI: From Buzzword to Business Value",
+    title: "AI Ethics in Autonomous Warfare",
     date: new Date(2023, 9, 28),
-    excerpt: "A practical guide for leaders on integrating AI into their core business strategy for tangible results.",
+    excerpt: "Navigating the complex ethical landscape of AI-driven combat systems and decision-making frameworks.",
   },
   {
     id: "blog-post-3",
-    title: "Why Polished Design is Non-Negotiable in Enterprise Apps",
+    title: "Quantum Sensing and its Impact on Stealth Technology",
     date: new Date(2023, 9, 5),
-    excerpt: "Explore how superior user experience drives adoption, reduces training costs, and boosts productivity.",
+    excerpt: "How quantum-based sensors are poised to revolutionize detection and change the nature of stealth.",
   },
 ];
 
@@ -33,13 +32,13 @@ export function BlogSection() {
       <div className="container mx-auto max-w-7xl px-4 md:px-6">
         <div className="flex justify-between items-center mb-12">
            <div className="max-w-3xl">
-            <h2 className="text-3xl md:text-4xl font-bold font-headline">Insights & News</h2>
+            <h2 className="text-3xl md:text-4xl font-bold font-headline">Strategic Intelligence</h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              Stay ahead with our latest articles on technology, design, and innovation.
+              Explore our analysis of emerging threats, technological trends, and future defense landscapes.
             </p>
           </div>
           <Button variant="outline" asChild>
-            <Link href="#">View All Posts</Link>
+            <Link href="#">View All Briefings</Link>
           </Button>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -67,7 +66,7 @@ export function BlogSection() {
                 </CardContent>
                 <CardFooter>
                    <Button variant="secondary" asChild>
-                    <Link href="#">Read More</Link>
+                    <Link href="#">Read Briefing</Link>
                   </Button>
                 </CardFooter>
               </Card>
