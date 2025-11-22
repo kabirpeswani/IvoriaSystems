@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Satellite, BrainCircuit, ShieldCheck, Atom, DatabaseZap, Bot } from "lucide-react";
+import { Satellite, BrainCircuit, ShieldCheck, Atom, DatabaseZap, Truck } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
 type Service = {
@@ -35,9 +35,9 @@ const services: Service[] = [
     description: "Fusing multi-source data into a single, actionable picture for people on the ground.",
   },
   {
-    icon: Bot,
-    title: "Autonomous Systems",
-    description: "Engineering unmanned and autonomous hardware for complex, high-risk operational scenarios.",
+    icon: Truck,
+    title: "Logistics Management",
+    description: "Streamlining supply chains and operational support with intelligent, resilient logistics platforms.",
   },
 ];
 
