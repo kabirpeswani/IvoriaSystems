@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       <HeroSection />
+      <ProductSection />
       <AboutSection />
       <WhyIvoryaSection />
       <ServicesSection />
-      <ProductSection />
       <TeamSection />
       <ContactSection />
     </div>

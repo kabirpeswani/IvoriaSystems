@@ -8,10 +8,10 @@ import { Menu, Shield } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
+  { href: "#product", label: "Products" },
   { href: "#about", label: "About" },
   { href: "#why-us", label: "Why Us" },
   { href: "#services", label: "Capabilities" },
-  { href: "#product", label: "Products" },
   { href: "#team", label: "Leadership" },
   { href: "#contact", label: "Contact" },
 ];
