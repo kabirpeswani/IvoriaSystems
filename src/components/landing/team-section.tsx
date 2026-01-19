@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const teamMembers = [
@@ -16,6 +15,11 @@ const teamMembers = [
     id: "team-divya",
     name: "Divya Singh",
     role: "CEO",
+  },
+  {
+    id: "team-parth",
+    name: "Parth latke",
+    role: "Manager",
   },
   {
     id: "team-gauri",
