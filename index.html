@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivoria Systems | Next-Generation Autonomous & Forensic Intelligence</title>
+    <meta name="description" content="Ivoria Systems builds enterprise-grade autonomous operating systems and secure forensic audio analytics for critical industries and defense.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Scroll Animations -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-symbol">I</span>
+                <span class="logo-text">Ivoria<span>Systems</span></span>
+            </a>
+            <nav class="nav-menu">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About Us</a>
+                <a href="#divyadrushti" class="nav-link">DivyaDrushti</a>
+                <a href="#sentinel" class="nav-link">Sentinel Audio</a>
+                <a href="#stack" class="nav-link">Technology</a>
+            </nav>
+            <button class="nav-cta" onclick="openContactModal()">Get Started</button>
+            <button class="menu-toggle" id="menuToggle"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </header>
+
+    <!-- Interactive 3D Hero Section -->
+    <section class="hero-section" id="hero">
+        <canvas id="canvas3d"></canvas>
+        <div class="hero-glow-1"></div>
+        <div class="hero-glow-2"></div>
+        
+        <div class="hero-content">
+            <span class="badge" data-aos="fade-down">ON-PREMISE AI & FORENSICS</span>
+            <h1 data-aos="fade-up" data-aos-delay="100">
+                Autonomous Intelligence <br>
+                <span>Built for Scale</span>
+            </h1>
+            <p data-aos="fade-up" data-aos-delay="200">
+                Deploying secure, local AI operating systems and audio forensics platforms that empower enterprises, defense contractors, and law enforcement.
+            </p>
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="300">
+                <button class="btn btn-primary" onclick="openContactModal()">Get Started <i class="fa-solid fa-arrow-right"></i></button>
+                <a href="#divyadrushti" class="btn btn-secondary">Explore Products</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span class="mouse"><span class="wheel"></span></span>
+        </div>
+    </section>
+
+    <!-- Brief Company Overview -->
+    <section class="overview-section" id="about">
+        <div class="section-container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="subtitle">WHO WE ARE</span>
+                <h2>Sovereign Intelligence Systems</h2>
+                <div class="accent-line mx-auto"></div>
+                <p class="section-desc">
+                    Ivoria Systems is a deep-tech startup building air-gapped, on-premise platforms. We run advanced machine learning directly on customer hardware—guaranteeing 100% data privacy and security.
+                </p>
+            </div>
+            
+            <div class="grid-3">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>100% On-Premise</h3>
+                    <p>No external cloud dependencies. Your data never leaves your facility floor.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-icon"><i class="fa-solid fa-brain"></i></div>
+                    <h3>Agentic Autonomy</h3>
+                    <p>AI agents that don't just report—they execute processes and schedule operations.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-icon"><i class="fa-solid fa-microchip"></i></div>
+                    <h3>Defense-Grade</h3>
+                    <p>Built for the most sensitive and highly regulated compliance standards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DivyaDrushti Product Showcase -->
+    <section class="product-showcase" id="divyadrushti">
+        <div class="section-container">
+            <div class="product-grid">
+                <div class="product-details" data-aos="fade-right">
+                    <div class="product-badge">FLAGSHIP PLATFORM</div>
+                    <h2>DivyaDrushti</h2>
+                    <span class="product-tagline">Autonomous Business Operating System</span>
+                    <p class="product-description">
+                        An AI-native operating system designed for manufacturing, logistics, and adjacent sectors. DivyaDrushti connects every department, database, and machine into a single proactive brain.
+                    </p>
+                    
+                    <ul class="product-features">
+                        <li><i class="fa-solid fa-circle-check"></i> <strong>Proactive Control</strong>: Detects patterns and anomalies before breakdowns happen.</li>
+                        <li><i class="fa-solid fa-circle-check"></i> <strong>RAG Knowledge Base</strong>: Queries manuals, contracts, and files with zero hallucination.</li>
+                        <li><i class="fa-solid fa-circle-check"></i> <strong>Universal Data Ingestion</strong>: Connects with Tally, ClickHouse, SAP, and Kafka.</li>
+                        <li><i class="fa-solid fa-circle-check"></i> <strong>Interactive Dashboards</strong>: Live OEE, financial analytics, and shift command views.</li>
+                    </ul>
+                    
+                    <button class="btn btn-primary mt-4" onclick="openContactModal()">Request Demo</button>
+                </div>
+                <div class="product-media" data-aos="fade-left">
+                    <div class="image-wrapper">
+                        <img src="divyadrushti.png" alt="DivyaDrushti Dashboard" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sentinel Audio Product Showcase -->
+    <section class="product-showcase alt-bg" id="sentinel">
+        <div class="section-container">
+            <div class="product-grid reverse">
+                <div class="product-media" data-aos="fade-right">
+                    <div class="image-wrapper">
+                        <img src="sentinalaudioimg.png" alt="Sentinel Audio Interface" class="img-responsive">
+                    </div>
+                </div>
+                
+                <div class="product-details" data-aos="fade-left">
+                    <div class="product-badge">SECURE FORENSICS</div>
+                    <h2>Sentinel Audio</h2>
+                    <span class="product-tagline">Advanced Audio Analysis & Manipulation Detection</span>
+                    <p class="product-description">
+                        A secure, high-fidelity platform engineered for defense, law enforcement, and security sectors to analyze recordings, verify authenticity, and uncover critical forensic insights.
+                    </p>
+                    
+                    <ul class="product-features">
+                        <li><i class="fa-solid fa-circle-check"></i> <strong>Tampering Assessment</strong>: Detects edit splices, vocoder artifacts, and deepfake audio.</li>
+                        <li><i class="fa-solid fa-circle-check"></i> <strong>Emotional Tone Detection</strong>: Visualizes stress, nervousness, and cognitive load levels.</li>
+                        <li><i class="fa-solid fa-circle-check"></i> <strong>Speech Enrichment</strong>: Specialized algorithms filter noise to amplify faint speech.</li>
+                        <li><i class="fa-solid fa-circle-check"></i> <strong>Case File Generation</strong>: One-click export of court-ready forensic reports.</li>
+                    </ul>
+                    
+                    <button class="btn btn-primary mt-4" onclick="openContactModal()">Request Sandbox Access</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Stack Section -->
+    <section class="stack-section" id="stack">
+        <div class="section-container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="subtitle">OUR STACK</span>
+                <h2>Engineered for Privacy & Performance</h2>
+                <div class="accent-line mx-auto"></div>
+            </div>
+            
+            <div class="stack-grid" data-aos="fade-up" data-aos-delay="100">
+                <div class="stack-card">
+                    <div class="stack-icon"><i class="fa-solid fa-cubes"></i></div>
+                    <h4>Local LLMs</h4>
+                    <p>Ollama + Llama 3.1 inference</p>
+                </div>
+                <div class="stack-card">
+                    <div class="stack-icon"><i class="fa-solid fa-database"></i></div>
+                    <h4>Vector Search</h4>
+                    <p>Qdrant Vector Database</p>
+                </div>
+                <div class="stack-card">
+                    <div class="stack-icon"><i class="fa-solid fa-bolt"></i></div>
+                    <h4>High Throughput</h4>
+                    <p>FastAPI & Go Workers</p>
+                </div>
+                <div class="stack-card">
+                    <div class="stack-icon"><i class="fa-solid fa-eye"></i></div>
+                    <h4>Computer Vision</h4>
+                    <p>YOLO v11 Edge Analysis</p>
+                </div>
+                <div class="stack-card">
+                    <div class="stack-icon"><i class="fa-solid fa-network-wired"></i></div>
+                    <h4>Data Storage</h4>
+                    <p>ClickHouse & TimescaleDB</p>
+                </div>
+                <div class="stack-card">
+                    <div class="stack-icon"><i class="fa-solid fa-lock"></i></div>
+                    <h4>Isolation</h4>
+                    <p>Kubernetes & Air-gapped Helm</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-overlay"></div>
+        <div class="section-container" data-aos="zoom-in">
+            <h2>Ready to Automate and Secure Your Operations?</h2>
+            <p>Get in touch to arrange a local proof-of-concept deployment on your hardware.</p>
+            <button class="btn btn-primary btn-large" onclick="openContactModal()">Get Started Now <i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="section-container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <span class="logo-symbol">I</span>
+                        <span class="logo-text">Ivoria<span>Systems</span></span>
+                    </div>
+                    <p>Sovereign autonomous software infrastructure and enterprise forensic intelligence. Built secure. Powered locally.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Solutions</h4>
+                    <a href="#divyadrushti">DivyaDrushti OS</a>
+                    <a href="#sentinel">Sentinel Audio</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <a href="#about">About Us</a>
+                    <a href="#stack">Technology Stack</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Get in Touch</h4>
+                    <p><i class="fa-solid fa-envelope"></i> ivoriasystems@gmail.com</p>
+                    <p><i class="fa-solid fa-location-dot"></i> Pune • Chennai, India</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Ivoria Systems. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact Form Modal -->
+    <div class="contact-modal-wrapper" id="contactModal">
+        <div class="modal-backdrop" onclick="closeContactModal()"></div>
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeContactModal()"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header">
+                <h3>Contact Ivoria Systems</h3>
+                <p>Submit your details to request sandbox access or schedule a system demo.</p>
+            </div>
+            <form class="modal-form" id="emailContactForm">
+                <div class="form-group">
+                    <label for="userName">Full Name</label>
+                    <input type="text" id="userName" required placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label for="userEmail">Business Email</label>
+                    <input type="email" id="userEmail" required placeholder="john@company.com">
+                </div>
+                <div class="form-group">
+                    <label for="userCompany">Company Name</label>
+                    <input type="text" id="userCompany" placeholder="Acme Corp">
+                </div>
+                <div class="form-group">
+                    <label for="userInterest">Product of Interest</label>
+                    <select id="userInterest">
+                        <option value="both">Both Platforms</option>
+                        <option value="divyadrushti">DivyaDrushti (Autonomous Business OS)</option>
+                        <option value="sentinel">Sentinel Audio (Forensics Platform)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="userMessage">Message / Requirements</label>
+                    <textarea id="userMessage" rows="4" placeholder="How can we help you?"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <!-- Three.js (3D Graphics) -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.152.0/build/three.min.js"></script>
+    <!-- AOS Scroll Animations -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <!-- Custom Application Javascript -->
+    <script src="app.js"></script>
+</body>
+</html>

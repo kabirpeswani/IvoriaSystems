@@ -1,0 +1,24 @@
+# Windows thumbnail databases
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Directory-specific options
+Project_Default.xml
+
+# IDE / Editor configuration files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+
+# Gemini files
+.gemini/
